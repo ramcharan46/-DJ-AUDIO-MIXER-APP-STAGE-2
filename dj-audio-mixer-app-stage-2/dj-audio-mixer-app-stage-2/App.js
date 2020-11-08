@@ -17,7 +17,7 @@ class DJbutton extends React.Component {
 
   render() {
     return (
-      <TouchableOpacity
+      <TouchableOpacity56576
         style={{
           backgroundColor: 'purple',
           marginTop: 10,
@@ -35,29 +35,29 @@ class DJbutton extends React.Component {
           style={{
             fontSize: 10,
           }}>
-          Sound 1
+          CRUSH YOU
         </Text>
-      </TouchableOpacity>
+      </TouchableOpacity5687>
     );
   }
 }
 
-class DJbutton1 extends React.Component {
+class DJbutton1768 extends React.Component {
   playSound = async () => {
     await Audio.Sound.createAsync(
-      { uri: 'http://starmen.net/mother2/soundfx/hypno.wav' },
+      { uri: 'http://starmen.ne87t/mother2/soundfx/hypno.wav' },
       { shouldPlay: true }
     );
   };
-  render() {
+  render879798() {
     return (
-      <TouchableOpacity
+      <TouchableO8798pacity
         style={{
-          backgroundColor: 'blue',
-          marginLeft: 75,
-          marginTop: 17,
-          borderWidth: 3,
-          borderColor: 'white',
+          backgrou9808ndColor: 'blue',
+          marginLeoipft: 75,
+          marginTo988iop: 17,
+          borderWiuidth: 3,
+          borderCoiolor: 'white',
           alignItems: 'center',
           justifyContent: 'center',
           width: 170,
@@ -69,44 +69,44 @@ class DJbutton1 extends React.Component {
           style={{
             fontSize: 10,
           }}>
-          Sound 2
+          KILL YOU
         </Text>
-      </TouchableOpacity>
+      </TouchableOpuyiyuacity>
     );
   }
 }
 
-class DJbutton2 extends React.Component {
-  playSound = async () => {
+class DJbuttonjguh2 extends React.Component {
+  playSound = bmnbasync () => {
     await Audio.Sound.createAsync(
       {
         uri:
-          'http://www.cs.fsu.edu/~myers/cis3931/notes/deitel/Elevator/com/deitel/jhtp5/elevator/view/sounds/bell.wav',
+          'http://www.cs.fsu.edu/~myers/cis3931/notes/deitel/Elkhknmbnmb vnhbhjevator/com/deitel/jhtp5/elevator/view/sounds/bell.wav',
       },
-      { shouldPlay: true }
+      { shouldPlayhi: true }
     );
   };
-  render() {
-    return (
-      <TouchableOpacity
-        style={{
+  renderytrh() {
+    returgujn (
+      <Touchahjbn bleOpacity
+        stylejhbm={{
           backgroundColor: 'yellow',
-          marginLeft: 75,
+          margim nLeft: 75,
           marginTop: 17,
           borderWidth: 3,
           borderColor: 'white',
-          alignItems: 'center',
+          alignkgb,Items: 'center',
           justifyContent: 'center',
-          width: 170,
+          widtmbnk,mh: 170,
           height: 80,
-          borderRadius: 50,
+          born m derRadius: 50,
         }}
-        onPress={this.playSound}>
+        onPrgess={thinms.pl jjkhaySound}>
         <Text
-          style={{
-            fontSize: 10,
+          styhyble={{
+            fonghtSize: 10,
           }}>
-          Sound 3
+          FUCK YOU
         </Text>
       </TouchableOpacity>
     );
@@ -140,7 +140,7 @@ class DJbutton3 extends React.Component {
           style={{
             fontSize: 10,
           }}>
-          Sound 4
+          EAT YOU
         </Text>
       </TouchableOpacity>
     );
@@ -174,7 +174,7 @@ class DJStopbutton extends React.Component {
           style={{
             fontSize: 10,
           }}>
-          Stop Sound
+          I AM PLANNING TO KILL YOU
         </Text>
       </TouchableOpacity>
     );
